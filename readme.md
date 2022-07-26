@@ -1,18 +1,10 @@
 # checkPropTypes
 
-[![Build Status](https://travis-ci.org/ratehub/check-prop-types.svg?branch=master)](https://travis-ci.org/ratehub/check-prop-types)
-[![View on npm](https://img.shields.io/npm/v/check-prop-types.svg)](https://www.npmjs.com/package/check-prop-types)
-
 Manually check [PropTypes](https://github.com/facebook/prop-types)-compatible proptypes, returning any errors instead of logging them to `console.error`.
 
 This function is more suitable for checking propTypes in unit tests than [mocking `console.error`](https://stackoverflow.com/q/26124914/1299695), avoiding some serious [problems](https://stackoverflow.com/q/41916992/1299695) with that approach.
 
-## Install
-
-```bash
-$ npm install --save-dev check-prop-types
-```
-
+this is fork of https://github.com/ratehub/check-prop-types
 ## Usage
 
 Call it just like `PropTypes.checkPropTypes`, but it returns any problems as an error message string.
